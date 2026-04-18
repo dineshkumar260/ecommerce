@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .glassmorphism {
+    @apply bg-white object-cover bg-opacity-70 backdrop-blur-lg border border-white/20;
+  }
+}
+
+body {
+    background-color: #fcf6f0;
+    color: #1a202c;
+    font-family: 'Inter', sans-serif;
+}
