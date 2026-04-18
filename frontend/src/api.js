@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:5000/api', // Match backend dev port
+    baseURL: 'https://ecommerce-ssew.onrender.com/api',
 });
 
 api.interceptors.request.use(config => {
